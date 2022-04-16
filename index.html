@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Modal</title>
+</head>
+<body>
+    <section class="layout-wrapper">
+        <div class="container container_content">
+            <h1>Welcome to the jungle</h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis provident natus illo adipisci quod repellendus incidunt dolorem, dignissimos sit deleniti neque obcaecati exercitationem. Et optio veritatis temporibus minus culpa id quas repellat maiores consequatur tenetur accusantium, cupiditate expedita consectetur illo sint dolores nihil, possimus aut quaerat ducimus repellendus ullam eligendi perferendis at. Neque, ratione quo commodi quia perferendis magnam aspernatur dolor est. Laboriosam eveniet quasi molestiae maiores inventore architecto quaerat debitis ratione, odio quidem temporibus animi nulla non totam quibusdam?</p>
+
+            <button role="button" type="button" id="open-button">Open modal</button>
+
+            <dialog class="modal" id="modal" role="modal">
+                <div class="modal_content">
+                    <button type="button" id="close-modal" class="btn_modal--close">
+                        <svg class="icon icon-cross" aria-hidden="true" focusable="false" width="15" height="15" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17">
+                            <path d="M16 1 1 16M1 1l15 15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+
+                    <h2>This is modal</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptates neque dolores quia illum pariatur, consequuntur animi quidem voluptas tenetur velit ut officiis autem rem tempore vero, dicta sapiente expedita minus? Qui ab voluptatibus sapiente debitis atque ad quaerat error incidunt. Temporibus debitis vitae suscipit veniam placeat quisquam minima ratione cupiditate quasi amet iste officia, possimus quam, nam quae sequi explicabo quo est adipisci eligendi! Minima provident dolor mollitia molestiae?</p>
+                </div>
+            </dialog>
+        </div>
+    </section>    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
